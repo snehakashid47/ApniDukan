@@ -24,14 +24,14 @@
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
-        <mandatory_attachment>true</mandatory_attachment>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Request for Return/Exchange </name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -68,7 +68,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs>fdb01a672f1ff110622559a72799b691,e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4,fdb01a672f1ff110622559a72799b691</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -110,7 +110,7 @@ incRPUtil.linkRecordProducerToParentIncident(RP.getParameterValue('sysparm_paren
         <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
         <sys_update_name>sc_cat_item_producer_4e5f82272f1ff110622559a72799b6ee</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-12-31 09:19:45</sys_updated_on>
+        <sys_updated_on>2024-01-02 04:42:22</sys_updated_on>
         <table_name>x_1151057_apniduka_returns</table_name>
         <taxonomy_topic/>
         <template/>
