@@ -21,7 +21,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>return_exchange</field>
+        <field>reason</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -41,13 +41,13 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>return_exchange</name>
-        <order>200</order>
+        <name>reason</name>
+        <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Are you looking for return or exchange?</question_text>
+        <question_text>Please select the reason for return. </question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -56,8 +56,8 @@
         <record/>
         <record_producer_table>x_1151057_apniduka_returns</record_producer_table>
         <reference/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -75,14 +75,14 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-02 04:54:35</sys_created_on>
-        <sys_id>f0e3da6b2f1ff110622559a72799b61f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Are you looking for return or exchange?</sys_name>
+        <sys_created_on>2024-01-02 09:45:17</sys_created_on>
+        <sys_id>019b2ee02fe33910622559a72799b64f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Please select the reason for return. </sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
-        <sys_update_name>item_option_new_f0e3da6b2f1ff110622559a72799b61f</sys_update_name>
+        <sys_update_name>item_option_new_019b2ee02fe33910622559a72799b64f</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2024-01-02 09:46:01</sys_updated_on>
         <table/>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=f0e3da6b2f1ff110622559a72799b61f"/>
-    <fx_price action="delete_multiple" query="id=f0e3da6b2f1ff110622559a72799b61f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=019b2ee02fe33910622559a72799b64f"/>
+    <fx_price action="delete_multiple" query="id=019b2ee02fe33910622559a72799b64f"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>f0e3da6b2f1ff110622559a72799b61f</id>
+        <id>019b2ee02fe33910622559a72799b64f</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-30 05:27:56</sys_created_on>
-        <sys_id>49745aab2f1ff110622559a72799b697</sys_id>
+        <sys_created_on>2024-01-02 09:45:18</sys_created_on>
+        <sys_id>dc2c2e642fe33910622559a72799b646</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-30 05:27:56</sys_updated_on>
+        <sys_updated_on>2024-01-02 09:45:18</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>f0e3da6b2f1ff110622559a72799b61f</id>
+        <id>019b2ee02fe33910622559a72799b64f</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-30 05:27:56</sys_created_on>
-        <sys_id>41745aab2f1ff110622559a72799b696</sys_id>
+        <sys_created_on>2024-01-02 09:45:18</sys_created_on>
+        <sys_id>d42c2e642fe33910622559a72799b645</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-30 05:27:56</sys_updated_on>
+        <sys_updated_on>2024-01-02 09:45:18</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
