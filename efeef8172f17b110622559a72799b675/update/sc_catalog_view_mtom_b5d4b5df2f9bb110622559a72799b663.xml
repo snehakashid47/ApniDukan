@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Home Appliances">a694b9df2f9bb110622559a72799b660</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 08:31:20</sys_created_on>
+        <sys_id>b5d4b5df2f9bb110622559a72799b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Electronics.catalog_electronics</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_electronics">71d4b5df2f9bb110622559a72799b662</sys_portal_page>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_b5d4b5df2f9bb110622559a72799b663</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 08:31:20</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

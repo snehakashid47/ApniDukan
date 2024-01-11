@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_queue">
+    <awa_queue action="DELETE">
+        <active>true</active>
+        <average_wait_time>1970-01-01 00:00:30</average_wait_time>
+        <condition>subcategory=antivirus^EQ</condition>
+        <condition_mode>simple</condition_mode>
+        <condition_script><![CDATA[(function executeCondition(/* glide record */ current) {  
+	// customize condition logic here, return true or false  
+	return false;
+})(current);]]></condition_script>
+        <evaluation_scope>document</evaluation_scope>
+        <external>false</external>
+        <external_id/>
+        <initial_agent_response>Thank you for contacting support. I am looking into your question now and will be with you shortly.</initial_agent_response>
+        <max_wait_time>1970-01-01 00:00:00</max_wait_time>
+        <max_wait_time_message>No agents are available to chat right now. Check back later.</max_wait_time_message>
+        <name>Software</name>
+        <number>QUE00002</number>
+        <order>100</order>
+        <schedule display_value="8-5 weekdays">08fcd0830a0a0b2600079f56b1adb9ae</schedule>
+        <service_channel/>
+        <short_description/>
+        <subflow/>
+        <sys_class_name>awa_queue</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 04:53:27</sys_created_on>
+        <sys_id>fdb57a8b2fa77110622559a72799b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>awa_queue_fdb57a8b2fa77110622559a72799b6f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 04:53:27</sys_updated_on>
+        <target_wait_time/>
+        <use_condition>true</use_condition>
+    </awa_queue>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>awa_queue_fdb57a8b2fa77110622559a72799b6f2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="awa_queue"&gt;&lt;awa_queue action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;average_wait_time&gt;1970-01-01 00:00:30&lt;/average_wait_time&gt;&lt;condition&gt;subcategory=antivirus^EQ&lt;/condition&gt;&lt;condition_mode&gt;simple&lt;/condition_mode&gt;&lt;condition_script&gt;&lt;![CDATA[(function executeCondition(/* glide record */ current) {  
+	// customize condition logic here, return true or false  
+	return false;
+})(current);]]&gt;&lt;/condition_script&gt;&lt;evaluation_scope&gt;document&lt;/evaluation_scope&gt;&lt;external&gt;false&lt;/external&gt;&lt;external_id/&gt;&lt;initial_agent_response&gt;Thank you for contacting support. I am looking into your question now and will be with you shortly.&lt;/initial_agent_response&gt;&lt;max_wait_time&gt;1970-01-01 00:00:00&lt;/max_wait_time&gt;&lt;max_wait_time_message&gt;No agents are available to chat right now. Check back later.&lt;/max_wait_time_message&gt;&lt;name&gt;Software&lt;/name&gt;&lt;number&gt;QUE00002&lt;/number&gt;&lt;order&gt;100&lt;/order&gt;&lt;schedule display_value="8-5 weekdays"&gt;08fcd0830a0a0b2600079f56b1adb9ae&lt;/schedule&gt;&lt;service_channel/&gt;&lt;short_description/&gt;&lt;subflow/&gt;&lt;sys_class_name&gt;awa_queue&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-10 04:53:27&lt;/sys_created_on&gt;&lt;sys_id&gt;fdb57a8b2fa77110622559a72799b6f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Software&lt;/sys_name&gt;&lt;sys_package display_value="ApniDukan" source="x_1151057_apniduka"&gt;efeef8172f17b110622559a72799b675&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ApniDukan"&gt;efeef8172f17b110622559a72799b675&lt;/sys_scope&gt;&lt;sys_update_name&gt;awa_queue_fdb57a8b2fa77110622559a72799b6f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-10 04:53:27&lt;/sys_updated_on&gt;&lt;target_wait_time/&gt;&lt;use_condition&gt;true&lt;/use_condition&gt;&lt;/awa_queue&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>779286876</payload_hash>
+        <record_name>Software</record_name>
+        <reverted_from/>
+        <source>27eef8172f17b110622559a72799b678</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 05:31:38</sys_created_on>
+        <sys_id>fece7e072fe77110622559a72799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf1dad14e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 05:31:38</sys_updated_on>
+        <type>Queue</type>
+        <update_guid>9b0632cb77a771103e52a8e0215a920c</update_guid>
+        <update_guid_history>9b0632cb77a771103e52a8e0215a920c:74720404,9b0632cb77a771103e52a8e0215a920c:74720404</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Software">b4568b4f2fe77110622559a72799b6a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 06:04:33</sys_created_on>
+        <sys_db_object display_value="" name="awa_queue">awa_queue</sys_db_object>
+        <sys_id>153c2d4eca55484d8884ba5174814001</sys_id>
+        <sys_metadata>fdb57a8b2fa77110622559a72799b6f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>awa_queue_fdb57a8b2fa77110622559a72799b6f2</sys_update_name>
+        <sys_update_version display_value="awa_queue_fdb57a8b2fa77110622559a72799b6f2">fece7e072fe77110622559a72799b68e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 06:04:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

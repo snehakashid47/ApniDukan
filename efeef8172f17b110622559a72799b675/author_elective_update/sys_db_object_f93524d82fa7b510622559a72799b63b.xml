@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Postal_Codes</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1151057_apniduka_postal_codes</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">88d993c3b4232110320f8dc279c8042b</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-01 05:17:23</sys_created_on>
+        <sys_id>f93524d82fa7b510622559a72799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apniduka Postal Codes</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sys_db_object_f93524d82fa7b510622559a72799b63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-01 05:17:23</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>sys_db_object_f93524d82fa7b510622559a72799b63b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Postal_Codes</label><live_feed_enabled>false</live_feed_enabled><name>x_1151057_apniduka_postal_codes</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">88d993c3b4232110320f8dc279c8042b</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-01 05:17:23</sys_created_on><sys_id>f93524d82fa7b510622559a72799b63b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Apniduka Postal Codes</sys_name><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>sys_db_object_f93524d82fa7b510622559a72799b63b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-01 05:17:23</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>2028664710</payload_hash>
+        <record_name>Postal_Codes</record_name>
+        <reverted_from/>
+        <source>27eef8172f17b110622559a72799b678</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-01 05:17:23</sys_created_on>
+        <sys_id>0a3524d82fa7b510622559a72799b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cc37488960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-01 05:17:23</sys_updated_on>
+        <type>Table</type>
+        <update_guid>8e3524d89ea7b510167f15f89dda50c1</update_guid>
+        <update_guid_history>8e3524d89ea7b510167f15f89dda50c1:2028664710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-01 05:59:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>576b3dd252bb4c61ac669b807d28c1f9</sys_id>
+        <sys_metadata>f93524d82fa7b510622559a72799b63b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apniduka Postal Codes</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sys_db_object_f93524d82fa7b510622559a72799b63b</sys_update_name>
+        <sys_update_version display_value="sys_db_object_f93524d82fa7b510622559a72799b63b">0a3524d82fa7b510622559a72799b6c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-01 05:59:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

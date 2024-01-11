@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="49ee64d42fe7b510622559a72799b67c" extends="sys_import_set_row" label="Imp Tmpl X 1151057 Apniduka Postaldata" max_length="40" name="u_imp_tmpl_x_1151057_apniduka_postaldata" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=City" label="City" max_length="20" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=Pincode" label="Pincode" max_length="40" name="u_pincode" type="integer"/>
+        <element attributes="import_attribute_name=ShippingCharges" label="ShippingCharges" max_length="10" name="u_shippingcharges" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=StateName" label="StateName" max_length="20" name="u_statename" type="string"/>
+    </element>
+</database>

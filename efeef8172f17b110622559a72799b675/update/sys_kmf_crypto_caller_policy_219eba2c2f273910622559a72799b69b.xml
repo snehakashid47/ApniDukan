@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <check_script_hash>false</check_script_hash>
+        <crypto_module display_value="com_snc_core_automation_connection_credential_glideencrypter">550cd0b07722201099808d1168106121</crypto_module>
+        <crypto_spec display_value="com_snc_core_automation_connection_credential_glideencrypter --- Symmetric Key Wrapping/Unwrapping">110cd0b07722201099808d1168106123</crypto_spec>
+        <granular_operation/>
+        <identity_group_alias/>
+        <impersonation>false</impersonation>
+        <instance_recipient/>
+        <owner>cc569751dbce73c407072f17d496191f</owner>
+        <policy_name>AutoGen-script-805fc7f087321300b18a046787cb0b94-global.com_snc_core_automation_connection_credential_glideencrypter</policy_name>
+        <result>track</result>
+        <script_hash>gA84vHik4It6o5n45xB4gI5a54pcGgKYtdxpDbd4WFk=</script_hash>
+        <script_table>sys_ui_macro</script_table>
+        <signature_data/>
+        <specify_purpose>false</specify_purpose>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 11:05:57</sys_created_on>
+        <sys_id>219eba2c2f273910622559a72799b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_219eba2c2f273910622559a72799b69b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 11:05:57</sys_updated_on>
+        <target_domain>global</target_domain>
+        <target_role/>
+        <target_scope/>
+        <target_script>805fc7f087321300b18a046787cb0b94</target_script>
+        <type>1</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>ApniDukan</name>
+        <order/>
+        <roles>x_1151057_apniduka.finance manager,x_1151057_apniduka.customer service representative,x_1151057_apniduka.customer,x_1151057_apniduka.logistic manager,x_1151057_apniduka.system administrator,x_1151057_apniduka.seller</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 06:56:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6e1f9dd72f5bb110622559a72799b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ApniDukan</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sys_ui_application_6e1f9dd72f5bb110622559a72799b640</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 06:56:22</sys_updated_on>
+    </sys_ui_application>
+</record_update>

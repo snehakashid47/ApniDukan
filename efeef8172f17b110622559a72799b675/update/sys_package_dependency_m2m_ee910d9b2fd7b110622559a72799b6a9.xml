@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Change Request" source="com.snc.change_request">12cc5b0bb4a32110320f8dc279c804eb</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 04:47:28</sys_created_on>
+        <sys_id>ee910d9b2fd7b110622559a72799b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 04:47:28</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

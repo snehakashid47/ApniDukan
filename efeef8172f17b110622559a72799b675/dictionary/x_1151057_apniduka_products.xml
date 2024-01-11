@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d6ee9dd72f5bb110622559a72799b68e" label="Products" max_length="40" name="x_1151057_apniduka_products" type="collection">
+        <element choice="1" display="true" label="Category" max_length="40" name="category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Electronics" sequence="0" value="Electronics"/>
+                <element inactive_on_update="false" label="Fashion" sequence="0" value="Fashion"/>
+                <element inactive_on_update="false" label="Fitness" sequence="0" value="Fitness"/>
+                <element inactive_on_update="false" label="Home and Kitchen" sequence="0" value="Home and Kitchen"/>
+                <element inactive_on_update="false" label="Sports and Outdoors" sequence="0" value="Sports and Outdoors"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Price" max_length="40" name="price" type="integer"/>
+        <element attributes="encode_utf8=false,format=none" default="javascript:getNextObjNumber();" dynamic_default_value="8acb83a85f220100a9ad2572f2b47741" label="Product_Id" max_length="40" name="product_id" read_only="true" type="integer" use_dynamic_default="true"/>
+        <element attributes="encode_utf8=false" label="Product_Name" max_length="40" name="product_name" type="string"/>
+        <element choice="1" choice_field="subcategory" choice_table="x_1151057_apniduka_products" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Fashion" inactive_on_update="false" label="Accessories" sequence="0" value="Accessories"/>
+                <element dependent_value="Home and Kitchen" inactive_on_update="false" label="Appliances" sequence="0" value="Appliances"/>
+                <element dependent_value="Electronics" inactive_on_update="false" label="Audio" sequence="0" value="Audio"/>
+                <element dependent_value="Electronics" inactive_on_update="false" label="Cameras" sequence="0" value="Cameras"/>
+                <element dependent_value="Home and Kitchen" inactive_on_update="false" label="Cookware" sequence="0" value="Cookware"/>
+                <element dependent_value="Fashion" inactive_on_update="false" label="Footwear" sequence="0" value="Footwear"/>
+                <element dependent_value="Sports and Outdoors" inactive_on_update="false" label="Hydration" sequence="0" value="Hydration"/>
+                <element dependent_value="Fitness" inactive_on_update="false" label="Strength Training" sequence="0" value="Strength Training"/>
+                <element dependent_value="Electronics" inactive_on_update="false" label="Televisions" sequence="0" value="Televisions"/>
+                <element dependent_value="Electronics" inactive_on_update="false" label="Wearable" sequence="0" value="Wearable"/>
+                <element dependent_value="Fitness" inactive_on_update="false" label="Yoga Accessories" sequence="0" value="Yoga Accessories"/>
+            </choice>
+        </element>
+        <element choice="1" label="Supplier" max_length="40" name="supplier" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Amazfit" sequence="0" value="Amazfit"/>
+                <element inactive_on_update="false" label="Baggit" sequence="0" value="Baggit"/>
+                <element inactive_on_update="false" label="Boat" sequence="0" value="Boat"/>
+                <element inactive_on_update="false" label="Gear" sequence="0" value="Gear"/>
+                <element inactive_on_update="false" label="HRX" sequence="0" value="HRX"/>
+                <element inactive_on_update="false" label="Inalsa" sequence="0" value="Inalsa"/>
+                <element inactive_on_update="false" label="LG" sequence="0" value="LG"/>
+                <element inactive_on_update="false" label="Milton" sequence="0" value="Milton"/>
+                <element inactive_on_update="false" label="Prestige" sequence="0" value="Prestige"/>
+                <element inactive_on_update="false" label="Puma" sequence="0" value="Puma"/>
+                <element inactive_on_update="false" label="Rayban" sequence="0" value="Rayban"/>
+                <element inactive_on_update="false" label="Sony" sequence="0" value="Sony"/>
+                <element inactive_on_update="false" label="Zebronics" sequence="0" value="Zebronics"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

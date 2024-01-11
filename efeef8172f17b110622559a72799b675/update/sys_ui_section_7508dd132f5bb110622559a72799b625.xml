@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7508dd132f5bb110622559a72799b625" sys_domain="global" table="x_1151057_apniduka_delivery_issue_reporting" version="3" view="sow_modal">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>7108dd132f5bb110622559a72799b626</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="c548e5e37773301024eb06e57b5a9990">7508dd132f5bb110622559a72799b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>7508dd132f5bb110622559a72799b626</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="c548e5e37773301024eb06e57b5a9990">7508dd132f5bb110622559a72799b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>7108dd132f5bb110622559a72799b627</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="c548e5e37773301024eb06e57b5a9990">7508dd132f5bb110622559a72799b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>7908dd132f5bb110622559a72799b627</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="c548e5e37773301024eb06e57b5a9990">7508dd132f5bb110622559a72799b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_code</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>7908dd132f5bb110622559a72799b626</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="c548e5e37773301024eb06e57b5a9990">7508dd132f5bb110622559a72799b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent_incident</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>7d08dd132f5bb110622559a72799b626</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="c548e5e37773301024eb06e57b5a9990">7508dd132f5bb110622559a72799b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>7508dd132f5bb110622559a72799b627</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="c548e5e37773301024eb06e57b5a9990">7508dd132f5bb110622559a72799b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>7d08dd132f5bb110622559a72799b627</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="c548e5e37773301024eb06e57b5a9990">7508dd132f5bb110622559a72799b625</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1151057_apniduka_delivery_issue_reporting</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7508dd132f5bb110622559a72799b625</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1151057_apniduka_delivery_issue_reporting</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+            <sys_update_name>sys_ui_section_7508dd132f5bb110622559a72799b625</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SOW Modal" name="sow_modal">c548e5e37773301024eb06e57b5a9990</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

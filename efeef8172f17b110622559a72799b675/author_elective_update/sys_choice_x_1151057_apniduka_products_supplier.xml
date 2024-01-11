@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="supplier" table="x_1151057_apniduka_products" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>supplier</element>
+            <name>x_1151057_apniduka_products</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:24</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>supplier</sys_name>
+            <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+            <sys_update_name>sys_choice_x_1151057_apniduka_products_supplier</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amazfit</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:26</sys_updated_on>
+            <value>Amazfit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Baggit</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:25</sys_updated_on>
+            <value>Baggit</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Boat</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:24</sys_updated_on>
+            <value>Boat</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gear</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:24</sys_updated_on>
+            <value>Gear</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HRX</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:24</sys_updated_on>
+            <value>HRX</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inalsa</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:25</sys_updated_on>
+            <value>Inalsa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LG</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:24</sys_updated_on>
+            <value>LG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Milton</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:25</sys_updated_on>
+            <value>Milton</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prestige</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:25</sys_updated_on>
+            <value>Prestige</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Puma</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:25</sys_updated_on>
+            <value>Puma</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rayban</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:26</sys_updated_on>
+            <value>Rayban</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sony</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:25</sys_updated_on>
+            <value>Sony</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>supplier</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Zebronics</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_products</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:20:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:20:25</sys_updated_on>
+            <value>Zebronics</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

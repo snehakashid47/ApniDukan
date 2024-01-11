@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="request_rejection_reason" label="Request Rejection Reason" language="en" table="x_1151057_apniduka_returns">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>request_rejection_reason</element>
+            <help/>
+            <hint/>
+            <label>Request Rejection Reason</label>
+            <language>en</language>
+            <name>x_1151057_apniduka_returns</name>
+            <plural>Request Rejection Reasons</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-02 08:37:43</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Rejection Reason</sys_name>
+            <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+            <sys_update_name>sys_documentation_x_1151057_apniduka_returns_request_rejection_reason_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-02 08:37:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

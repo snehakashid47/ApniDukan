@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="DELETE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Create return/exchange request</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles>admin,x_1151057_apniduka.customer</required_roles>
+        <script><![CDATA[//	Note: current.opened_by is already set to the first UserID that matches the From: email address
+
+current.caller_id = gs.getUserID();
+current.comments = "received from: " + email.origemail + "\n\n" + email.body_text;
+current.short_description = email.subject;
+current.contact_type = "email";
+
+if (email.body.assign != undefined)
+   current.assigned_to = email.body.assign;
+
+if (email.importance != undefined) {
+   if (email.importance.toLowerCase() == "high") {
+		current.impact = 1;
+		current.urgency = 1;
+   }
+}
+
+if (current.canCreate())
+	current.insert();]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-30 06:25:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c52eda672f5ff110622559a72799b6df</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Create return/exchange request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sysevent_in_email_action_c52eda672f5ff110622559a72799b6df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 11:14:14</sys_updated_on>
+        <table>x_1151057_apniduka_returns</table>
+        <template/>
+        <type>new</type>
+    </sysevent_in_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>sysevent_in_email_action_c52eda672f5ff110622559a72799b6df</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_in_email_action"&gt;&lt;sysevent_in_email_action action="INSERT_OR_UPDATE"&gt;&lt;action&gt;record_action&lt;/action&gt;&lt;active&gt;true&lt;/active&gt;&lt;assignment_operator/&gt;&lt;condition_script/&gt;&lt;description/&gt;&lt;event_name&gt;email.read&lt;/event_name&gt;&lt;filter_condition/&gt;&lt;from/&gt;&lt;name&gt;Create return/exchange request&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;reply_email/&gt;&lt;required_roles&gt;admin,x_1151057_apniduka.customer&lt;/required_roles&gt;&lt;script&gt;&lt;![CDATA[//	Note: current.opened_by is already set to the first UserID that matches the From: email address
+
+current.caller_id = gs.getUserID();
+current.comments = "received from: " + email.origemail + "\n\n" + email.body_text;
+current.short_description = email.subject;
+current.contact_type = "email";
+
+if (email.body.assign != undefined)
+   current.assigned_to = email.body.assign;
+
+if (email.importance != undefined) {
+   if (email.importance.toLowerCase() == "high") {
+		current.impact = 1;
+		current.urgency = 1;
+   }
+}
+
+if (current.canCreate())
+	current.insert();]]&gt;&lt;/script&gt;&lt;stop_processing&gt;false&lt;/stop_processing&gt;&lt;sys_class_name&gt;sysevent_in_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-30 06:25:28&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c52eda672f5ff110622559a72799b6df&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create return/exchange request&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ApniDukan" source="x_1151057_apniduka"&gt;efeef8172f17b110622559a72799b675&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ApniDukan"&gt;efeef8172f17b110622559a72799b675&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_in_email_action_c52eda672f5ff110622559a72799b6df&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-03 11:14:14&lt;/sys_updated_on&gt;&lt;table&gt;x_1151057_apniduka_returns&lt;/table&gt;&lt;template/&gt;&lt;type&gt;new&lt;/type&gt;&lt;/sysevent_in_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1479386556</payload_hash>
+        <record_name>Create return/exchange request</record_name>
+        <reverted_from/>
+        <source>27eef8172f17b110622559a72799b678</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 11:14:14</sys_created_on>
+        <sys_id>fc1a0c452f2f7910622559a72799b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ccf07f6ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 11:14:14</sys_updated_on>
+        <type>Inbound Email Actions</type>
+        <update_guid>f41a0c456a2f79105c7d8121c8fe1253</update_guid>
+        <update_guid_history>f41a0c456a2f79105c7d8121c8fe1253:-1479386556,cf794c054c2f791034ef0403acabfb6c:133487330,ba274081b92f79106fe5c559f4ac80fe:-1221789003,6be60081932f79102119e833c15cd9b8:-26867648,f9c1cb2f679ff1103c4aa285bd42d968:29946076,3fa04beb4e9ff11032eb6970b5c8a19f:-320485049,cd46e26b625ff110be4dc0f8cb6fe34d:-1000645219,f791ee2b985ff110d8aeaeabe7130bc6:-1383146440</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 11:16:01</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_in_email_action">sysevent_in_email_action</sys_db_object>
+        <sys_id>4779473faef840e08c7293b405f13504</sys_id>
+        <sys_metadata>c52eda672f5ff110622559a72799b6df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create return/exchange request</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent display_value="">483388482fa37510622559a72799b6ee</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sysevent_in_email_action_c52eda672f5ff110622559a72799b6df</sys_update_name>
+        <sys_update_version display_value="sysevent_in_email_action_c52eda672f5ff110622559a72799b6df">fc1a0c452f2f7910622559a72799b653</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 11:16:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

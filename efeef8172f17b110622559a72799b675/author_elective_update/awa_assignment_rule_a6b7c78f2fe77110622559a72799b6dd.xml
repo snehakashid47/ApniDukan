@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_assignment_rule">
+    <awa_assignment_rule action="DELETE">
+        <after_timeout_presence/>
+        <allow_agents_to_decline>true</allow_agents_to_decline>
+        <assign_by>last_assigned</assign_by>
+        <display_option>card_only</display_option>
+        <enable_auto_assign>true</enable_auto_assign>
+        <enable_skills>true</enable_skills>
+        <enforce_mandatory_skills>true</enforce_mandatory_skills>
+        <evaluate_skill_level>false</evaluate_skill_level>
+        <name>High Priority Incidents</name>
+        <reassign_on_timeout>false</reassign_on_timeout>
+        <short_description/>
+        <sys_class_name>awa_assignment_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 06:10:58</sys_created_on>
+        <sys_id>a6b7c78f2fe77110622559a72799b6dd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>High Priority Incidents</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>awa_assignment_rule_a6b7c78f2fe77110622559a72799b6dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 08:13:25</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+    </awa_assignment_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>awa_assignment_rule_a6b7c78f2fe77110622559a72799b6dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_assignment_rule"><awa_assignment_rule action="INSERT_OR_UPDATE"><after_timeout_presence/><allow_agents_to_decline>true</allow_agents_to_decline><assign_by>last_assigned</assign_by><display_option>card_only</display_option><enable_auto_assign>true</enable_auto_assign><enable_skills>true</enable_skills><enforce_mandatory_skills>true</enforce_mandatory_skills><evaluate_skill_level>false</evaluate_skill_level><name>High Priority Incidents</name><reassign_on_timeout>false</reassign_on_timeout><short_description/><sys_class_name>awa_assignment_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-10 06:10:58</sys_created_on><sys_id>a6b7c78f2fe77110622559a72799b6dd</sys_id><sys_mod_count>2</sys_mod_count><sys_name>High Priority Incidents</sys_name><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>awa_assignment_rule_a6b7c78f2fe77110622559a72799b6dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-10 08:13:25</sys_updated_on><timeout>1970-01-01 00:00:00</timeout></awa_assignment_rule></record_update>]]></payload>
+        <payload_hash>-1093498337</payload_hash>
+        <record_name>High Priority Incidents</record_name>
+        <reverted_from/>
+        <source>27eef8172f17b110622559a72799b678</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 08:13:25</sys_created_on>
+        <sys_id>ecd3a3072fab7110622559a72799b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf26eed920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 08:13:25</sys_updated_on>
+        <type>Assignment Rule</type>
+        <update_guid>e4d3a30786ab7110b582cdc5157b81f2</update_guid>
+        <update_guid_history>e4d3a30786ab7110b582cdc5157b81f2:-1093498337,a4e713478f6b71106a7f75d6380aaebb:1169569022,3ac707cf16e77110c039a57d453012df:1052355129</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="High Priority Incidents">8866bf0f2feb7110622559a72799b6e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 09:34:29</sys_created_on>
+        <sys_db_object display_value="" name="awa_assignment_rule">awa_assignment_rule</sys_db_object>
+        <sys_id>4a1f57e1ec36438492859d3fee102690</sys_id>
+        <sys_metadata>a6b7c78f2fe77110622559a72799b6dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>High Priority Incidents</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>awa_assignment_rule_a6b7c78f2fe77110622559a72799b6dd</sys_update_name>
+        <sys_update_version display_value="awa_assignment_rule_a6b7c78f2fe77110622559a72799b6dd">ecd3a3072fab7110622559a72799b6f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 09:34:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

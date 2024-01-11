@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="ApniDukan">6e1f9dd72f5bb110622559a72799b640</application>
+        <filter/>
+        <name>Orders</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1151057_apniduka.orders_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-30 03:37:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a71b39232fdbf110622559a72799b65a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Orders</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sys_ui_module_a71b39232fdbf110622559a72799b65a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-30 03:37:15</sys_updated_on>
+        <table>x_1151057_apniduka_orders</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>sys_ui_module_a71b39232fdbf110622559a72799b65a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ApniDukan">6e1f9dd72f5bb110622559a72799b640</application><filter/><name>Orders</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1151057_apniduka.orders_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-30 03:37:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a71b39232fdbf110622559a72799b65a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Orders</sys_name><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>sys_ui_module_a71b39232fdbf110622559a72799b65a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-30 03:37:15</sys_updated_on><table>x_1151057_apniduka_orders</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>548716130</payload_hash>
+        <record_name>Orders</record_name>
+        <reverted_from/>
+        <source>27eef8172f17b110622559a72799b678</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-30 03:37:15</sys_created_on>
+        <sys_id>e31b39232fdbf110622559a72799b65d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cb8cc230c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-30 03:37:15</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2b1b392330dbf11024f10e07f591675c</update_guid>
+        <update_guid_history>2b1b392330dbf11024f10e07f591675c:548716130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-30 11:09:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>8fdbcd6802df4d2cb18e8ce779054210</sys_id>
+        <sys_metadata>a71b39232fdbf110622559a72799b65a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Orders</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sys_ui_module_a71b39232fdbf110622559a72799b65a</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_a71b39232fdbf110622559a72799b65a">e31b39232fdbf110622559a72799b65d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-30 11:09:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

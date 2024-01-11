@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="282404c82fa37510622559a72799b6bc" extends="task" label="Returns" max_length="40" name="x_1151057_apniduka_returns" type="collection">
+        <element choice="3" label="Customer_Membership" max_length="20" name="customer_membership" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Gold" value="Gold"/>
+                <element inactive_on_update="false" label="Platinum" value="Platinum"/>
+                <element inactive_on_update="false" label="Silver" value="Silver"/>
+            </choice>
+        </element>
+        <element label="Delivery_Date" max_length="32" name="delivery_date" type="glide_date"/>
+        <element label="Order_Id" max_length="32" name="order_id" reference="x_1151057_apniduka_orders" type="reference"/>
+        <element label="Pincode" max_length="32" name="pincode" reference="x_1151057_apniduka_postaldata" type="reference"/>
+        <element choice="3" label="Reason" mandatory="true" max_length="200" name="reason" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Change of Mind" value="Change of Mind"/>
+                <element inactive_on_update="false" label="Defective or Faulty Product" value="Defective or Faulty Product"/>
+                <element inactive_on_update="false" label="Not as Described" value="Not as Described"/>
+                <element inactive_on_update="false" label="Size or Fit Issues" value="Size or Fit Issues"/>
+                <element inactive_on_update="false" label="Unsatisfactory Quality" value="Unsatisfactory Quality"/>
+                <element inactive_on_update="false" label="Wrong Item Received" value="Wrong Item Received"/>
+            </choice>
+        </element>
+        <element label="Refund Amount" max_length="40" name="refund_amount" reference="x_1151057_apniduka_products" type="integer"/>
+        <element label="Request Acceptance Reason" max_length="200" name="request_acceptance_reason" type="string"/>
+        <element label="Request Rejection Reason" max_length="200" name="request_rejection_reason" type="string"/>
+        <element choice="1" label="Return/Exchange" max_length="40" name="return_exchange" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Exchange" value="exchange"/>
+                <element inactive_on_update="false" label="Return" value="return"/>
+            </choice>
+        </element>
+        <element attributes="format=false" default="javascript:getNextObjNumber();" dynamic_default_value="8acb83a85f220100a9ad2572f2b47741" label="Return_Id" max_length="40" name="return_id" type="integer" use_dynamic_default="true"/>
+    </element>
+</database>

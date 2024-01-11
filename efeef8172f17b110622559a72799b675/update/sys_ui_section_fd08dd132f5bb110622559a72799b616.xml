@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Related Records" section_id="fd08dd132f5bb110622559a72799b616" sys_domain="global" table="x_1151057_apniduka_delivery_issue_reporting" version="3" view="sow">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent_incident</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>f508dd132f5bb110622559a72799b618</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">fd08dd132f5bb110622559a72799b616</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>problem_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>f908dd132f5bb110622559a72799b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">fd08dd132f5bb110622559a72799b616</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>fd08dd132f5bb110622559a72799b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">fd08dd132f5bb110622559a72799b616</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rfc</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>f108dd132f5bb110622559a72799b618</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">fd08dd132f5bb110622559a72799b616</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caused_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_id>f908dd132f5bb110622559a72799b618</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_1151057_apniduka_delivery_issue_reporting" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">fd08dd132f5bb110622559a72799b616</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Related Records</caption>
+            <header>false</header>
+            <name>x_1151057_apniduka_delivery_issue_reporting</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 06:25:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd08dd132f5bb110622559a72799b616</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1151057_apniduka_delivery_issue_reporting</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+            <sys_update_name>sys_ui_section_fd08dd132f5bb110622559a72799b616</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 06:25:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Service Operations Workspace" name="sow">f5c0a49877413010dc2c885d9f5a999e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

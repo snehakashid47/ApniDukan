@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="u_imp_tmpl_x_1151057_apniduka_postaldata">095fa0182fe7b510622559a72799b6db</map>
+        <reference_value_field/>
+        <source_field>u_statename</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>u_imp_tmpl_x_1151057_apniduka_postaldata</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-01 06:01:34</sys_created_on>
+        <sys_id>455fe8182fe7b510622559a72799b641</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_statename</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sys_transform_entry_455fe8182fe7b510622559a72799b641</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-01 06:01:34</sys_updated_on>
+        <target_field>statename</target_field>
+        <target_table>x_1151057_apniduka_postaldata</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

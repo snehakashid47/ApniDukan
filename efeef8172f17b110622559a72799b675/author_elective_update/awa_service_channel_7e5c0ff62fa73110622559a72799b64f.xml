@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_service_channel">
+    <awa_service_channel action="DELETE">
+        <active>true</active>
+        <advanced_condition>false</advanced_condition>
+        <assign_to_field>assigned_to</assign_to_field>
+        <assignment_group_field>assignment_group</assignment_group_field>
+        <condition/>
+        <default_capacity>1</default_capacity>
+        <default_size>1</default_size>
+        <description/>
+        <enable_logging>false</enable_logging>
+        <inbox_alert_audio/>
+        <log_level>none</log_level>
+        <message_alert_audio/>
+        <name>ChatBot</name>
+        <order>100</order>
+        <stop_logging_at/>
+        <stop_logging_schedule/>
+        <sys_class_name>awa_service_channel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 11:53:09</sys_created_on>
+        <sys_id>7e5c0ff62fa73110622559a72799b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChatBot</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>awa_service_channel_7e5c0ff62fa73110622559a72799b64f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 11:53:09</sys_updated_on>
+        <type/>
+        <utilization_condition table="x_1151057_apniduka_returns">return_exchange=return^EQ<item display_value="Return" endquery="false" field="return_exchange" goto="false" newquery="false" operator="=" or="false" value="return"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </utilization_condition>
+        <workitem_table>x_1151057_apniduka_returns</workitem_table>
+    </awa_service_channel>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>awa_service_channel_7e5c0ff62fa73110622559a72799b64f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_service_channel"><awa_service_channel action="INSERT_OR_UPDATE"><active>true</active><advanced_condition>false</advanced_condition><assign_to_field>assigned_to</assign_to_field><assignment_group_field>assignment_group</assignment_group_field><condition/><default_capacity>1</default_capacity><default_size>1</default_size><description/><enable_logging>false</enable_logging><inbox_alert_audio/><log_level>none</log_level><message_alert_audio/><name>ChatBot</name><order>100</order><stop_logging_at/><stop_logging_schedule/><sys_class_name>awa_service_channel</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-09 11:53:09</sys_created_on><sys_id>7e5c0ff62fa73110622559a72799b64f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ChatBot</sys_name><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>awa_service_channel_7e5c0ff62fa73110622559a72799b64f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-09 11:53:09</sys_updated_on><type/><utilization_condition table="x_1151057_apniduka_returns">return_exchange=return^EQ<item display_value="Return" endquery="false" field="return_exchange" goto="false" newquery="false" operator="=" or="false" value="return"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></utilization_condition><workitem_table>x_1151057_apniduka_returns</workitem_table></awa_service_channel></record_update>]]></payload>
+        <payload_hash>377005590</payload_hash>
+        <record_name>ChatBot</record_name>
+        <reverted_from/>
+        <source>27eef8172f17b110622559a72799b678</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 11:53:10</sys_created_on>
+        <sys_id>b58ccff62fa73110622559a72799b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cee11c19b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 11:53:10</sys_updated_on>
+        <type>Service Channel</type>
+        <update_guid>f98ccff680a7311097f5891674fff594</update_guid>
+        <update_guid_history>f98ccff680a7311097f5891674fff594:377005590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ChatBot">7c45328b2fa77110622559a72799b63e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 04:50:00</sys_created_on>
+        <sys_db_object display_value="" name="awa_service_channel">awa_service_channel</sys_db_object>
+        <sys_id>3deb1047870744669313b54f7da75a39</sys_id>
+        <sys_metadata>7e5c0ff62fa73110622559a72799b64f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ChatBot</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>awa_service_channel_7e5c0ff62fa73110622559a72799b64f</sys_update_name>
+        <sys_update_version display_value="awa_service_channel_7e5c0ff62fa73110622559a72799b64f">b58ccff62fa73110622559a72799b695</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 04:50:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>citydata</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1151057_apniduka_citydata</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-01 05:51:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f50d60542fe7b510622559a72799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>citydata</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sys_app_module_f50d60542fe7b510622559a72799b62b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-01 05:51:30</sys_updated_on>
+        <timeline_page/>
+        <title>citydata</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>sys_app_module_f50d60542fe7b510622559a72799b62b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>citydata</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1151057_apniduka_citydata</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-01 05:51:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f50d60542fe7b510622559a72799b62b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>citydata</sys_name><sys_overrides/><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>sys_app_module_f50d60542fe7b510622559a72799b62b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-01 05:51:30</sys_updated_on><timeline_page/><title>citydata</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>104069351</payload_hash>
+        <record_name>citydata</record_name>
+        <reverted_from/>
+        <source>27eef8172f17b110622559a72799b678</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-01 05:51:30</sys_created_on>
+        <sys_id>b50d60542fe7b510622559a72799b62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cc393c5190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-01 05:51:30</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f90d60541ae7b510fecb018cc8d3952d</update_guid>
+        <update_guid_history>f90d60541ae7b510fecb018cc8d3952d:104069351</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="citydata">dafeacd42fe7b510622559a72799b625</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-01 06:00:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>076a8a6a3d7d4d5984b94f2b8fa60551</sys_id>
+        <sys_metadata>f50d60542fe7b510622559a72799b62b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>citydata</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sys_app_module_f50d60542fe7b510622559a72799b62b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_f50d60542fe7b510622559a72799b62b">b50d60542fe7b510622559a72799b62e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-01 06:00:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

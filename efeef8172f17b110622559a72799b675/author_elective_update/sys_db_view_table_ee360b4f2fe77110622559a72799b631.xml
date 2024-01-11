@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="DELETE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 06:04:07</sys_created_on>
+        <sys_id>ee360b4f2fe77110622559a72799b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>awa_queue</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sys_db_view_table_ee360b4f2fe77110622559a72799b631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 06:04:07</sys_updated_on>
+        <table>awa_queue</table>
+        <variable_prefix>q</variable_prefix>
+        <view display_value="u_awa_0af5070b2fe77110622559a72799b68f_work_item">e6360b4f2fe77110622559a72799b625</view>
+        <where_clause>q_service_channel = '0af5070b2fe77110622559a72799b68f'</where_clause>
+    </sys_db_view_table>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>sys_db_view_table_ee360b4f2fe77110622559a72799b631</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table"><sys_db_view_table action="INSERT_OR_UPDATE"><active>true</active><left_join>false</left_join><order>100</order><sys_class_name>sys_db_view_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-10 06:04:07</sys_created_on><sys_id>ee360b4f2fe77110622559a72799b631</sys_id><sys_mod_count>0</sys_mod_count><sys_name>awa_queue</sys_name><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>sys_db_view_table_ee360b4f2fe77110622559a72799b631</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-10 06:04:07</sys_updated_on><table>awa_queue</table><variable_prefix>q</variable_prefix><view display_value="u_awa_0af5070b2fe77110622559a72799b68f_work_item">e6360b4f2fe77110622559a72799b625</view><where_clause>q_service_channel = '0af5070b2fe77110622559a72799b68f'</where_clause></sys_db_view_table></record_update>]]></payload>
+        <payload_hash>664826190</payload_hash>
+        <record_name>awa_queue</record_name>
+        <reverted_from/>
+        <source>27eef8172f17b110622559a72799b678</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 06:04:07</sys_created_on>
+        <sys_id>2a360b4f2fe77110622559a72799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf1f88f950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 06:04:07</sys_updated_on>
+        <type>View Table</type>
+        <update_guid>6e360b4f28e77110cae0424159bac238</update_guid>
+        <update_guid_history>6e360b4f28e77110cae0424159bac238:664826190</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 06:23:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table">sys_db_view_table</sys_db_object>
+        <sys_id>1a753c8df4ca414698508fb1ab9b38b9</sys_id>
+        <sys_metadata>ee360b4f2fe77110622559a72799b631</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>awa_queue</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_ee360b4f2fe77110622559a72799b631</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_ee360b4f2fe77110622559a72799b631">2a360b4f2fe77110622559a72799b639</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 06:23:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

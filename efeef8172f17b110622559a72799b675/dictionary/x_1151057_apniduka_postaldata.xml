@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5833a8182fa7b510622559a72799b622" label="PostalData" max_length="40" name="x_1151057_apniduka_postaldata" type="collection">
+        <element label="City" max_length="20" name="city" type="string"/>
+        <element attributes="encode_utf8=false,format=none" display="true" label="Pincode" mandatory="true" max_length="40" name="pincode" type="integer"/>
+        <element label="ShippingCharges" max_length="10" name="shippingcharges" type="integer"/>
+        <element label="StateName" max_length="20" name="statename" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

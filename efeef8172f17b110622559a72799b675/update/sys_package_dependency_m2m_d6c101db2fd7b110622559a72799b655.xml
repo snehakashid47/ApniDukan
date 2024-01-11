@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Incident" source="com.snc.incident">f1cc1b0bb4a32110320f8dc279c804bc</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 04:48:16</sys_created_on>
+        <sys_id>d6c101db2fd7b110622559a72799b655</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 04:48:16</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

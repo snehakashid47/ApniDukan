@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Request for Return/Exchange ">4e5f82272f1ff110622559a72799b6ee</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-31 09:18:06</sys_created_on>
+        <sys_id>e2b210c82fe37510622559a72799b6b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request for Return/Exchange .Any User</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e2b210c82fe37510622559a72799b6b9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-31 09:19:43</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>cc569751dbce73c407072f17d496191f</instance_id>
+        <instance_name>dev87228</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_e2b210c82fe37510622559a72799b6b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request for Return/Exchange ">4e5f82272f1ff110622559a72799b6ee</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-31 09:18:06</sys_created_on><sys_id>e2b210c82fe37510622559a72799b6b9</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Request for Return/Exchange .Any User</sys_name><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_e2b210c82fe37510622559a72799b6b9</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-12-31 09:19:43</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1042117130</payload_hash>
+        <record_name>Request for Return/Exchange .Any User</record_name>
+        <reverted_from/>
+        <source>e113d4c82fe37510622559a72799b601</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-31 09:19:43</sys_created_on>
+        <sys_id>4e13d4c82fe37510622559a72799b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cbf2c0a050000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-31 09:19:43</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>8213d4c871e37510f901219924ea5d9a</update_guid>
+        <update_guid_history>8213d4c871e37510f901219924ea5d9a:1042117130,ca13d4c870e37510e04e6783d78fcc97:-1535379812</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request for Return/Exchange .Any User">92c6a5282f6ff510622559a72799b6be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-02 04:42:20</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>778c6a4582f444fea477fba76edaf8e4</sys_id>
+        <sys_metadata>e2b210c82fe37510622559a72799b6b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request for Return/Exchange .Any User</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e2b210c82fe37510622559a72799b6b9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_e2b210c82fe37510622559a72799b6b9">4e13d4c82fe37510622559a72799b69a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-02 04:42:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

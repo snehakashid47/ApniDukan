@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c4c2e7e72f533510622559a72799b66e" extends="task" label="Orders" max_length="40" name="x_1151057_apniduka_orders" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Age" mandatory="true" max_length="40" name="age" type="integer"/>
+        <element attributes="encode_utf8=false" label="Category" max_length="32" name="category" reference="x_1151057_apniduka_products" type="reference"/>
+        <element attributes="encode_utf8=false" label="City" max_length="32" name="city" reference="x_1151057_apniduka_postaldata" reference_qual="cityISNOTEMPTY^EQ" reference_qual_condition="cityISNOTEMPTY^EQ" type="reference"/>
+        <element label="Delivery_date" max_length="40" name="delivery_date" type="glide_date"/>
+        <element label="First_Name" mandatory="true" max_length="20" name="first_name" type="string"/>
+        <element label="Last_Name" max_length="20" name="last_name" type="string"/>
+        <element attributes="format=none" default="javascript:getNextObjNumber();" dynamic_default_value="8acb83a85f220100a9ad2572f2b47741" label="Order_ID" max_length="40" name="order_id" read_only="true" type="integer" use_dynamic_default="true"/>
+        <element choice="1" default="In-process" label="Order_Status" max_length="40" name="order_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Canceled" value="canceled"/>
+                <element inactive_on_update="false" label="Delivered" value="delivered"/>
+                <element inactive_on_update="false" label="In Process" value="in-process"/>
+                <element inactive_on_update="false" label="Refunded" value="refunded"/>
+                <element inactive_on_update="false" label="Returned" value="returned"/>
+                <element inactive_on_update="false" label="Shipped" value="shipped"/>
+            </choice>
+        </element>
+        <element label="Phone_Number" mandatory="true" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element attributes="encode_utf8=false" label="Pincode" max_length="32" name="pincode" reference="x_1151057_apniduka_postaldata" type="reference"/>
+        <element label="Price" max_length="40" name="price" reference="x_1151057_apniduka_products" type="integer"/>
+        <element label="Product_Id" max_length="32" name="product_id" reference="x_1151057_apniduka_products" type="reference"/>
+    </element>
+</database>
