@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7d8553b64735021013eeb60e316d43eb</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 08:53:51</sys_created_on>
+        <sys_id>8b8513b64735021013eeb60e316d4384</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_instance_8b8513b64735021013eeb60e316d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 09:07:14</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&nbsp;</p>\r\n<style>\r\n  body {\r\n    font-family: Arial, sans-serif;\r\n    background-color: #f7f7f7;\r\n    margin: 0;\r\n    padding: 20px;\r\n  }\r\n  \r\n  h2 {\r\n    color: #333;\r\n    text-align: center;\r\n    margin-bottom: 20px;\r\n  }\r\n  \r\n  form {\r\n    max-width: 400px;\r\n    margin: 0 auto;\r\n    background-color: #fff;\r\n    padding: 20px;\r\n    border-radius: 8px;\r\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\r\n  }\r\n  \r\n  label {\r\n    display: block;\r\n    margin-bottom: 8px;\r\n    color: #333;\r\n  }\r\n  \r\n  input[type=\"text\"] {\r\n    width: calc(100% - 20px);\r\n    padding: 10px;\r\n    margin-bottom: 20px;\r\n    border: 1px solid #ccc;\r\n    border-radius: 4px;\r\n  }\r\n  \r\n  input[type=\"submit\"] {\r\n    width: 100%;\r\n    padding: 12px;\r\n    background-color: #007bff;\r\n    color: #fff;\r\n    border: none;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n    transition: background-color 0.3s ease;\r\n  }\r\n  \r\n  input[type=\"submit\"]:hover {\r\n    background-color: #0056b3;\r\n  }\r\n</style>\r\n<h2>Kindly share your new card details below:</h2>\r\n<form action=\"/submit_payment\" method=\"post\"><label for=\"card_number\">Card Number:</label> <input id=\"card_number\" name=\"card_number\" required=\"\" type=\"text\" /> <label for=\"card_holder_name\">Card Holder Name:</label><br /><input id=\"card_holder_name\" name=\"card_holder_name\" required=\"\" type=\"text\" /><br /><label for=\"expiry_date\">Expiry Date:</label><br /><input id=\"expiry_date\" name=\"expiry_date\" required=\"\" type=\"text\" placeholder=\"MM/YYYY\" /><br /><label for=\"cvv\">CVV:</label><br /><input id=\"cvv\" name=\"cvv\" required=\"\" type=\"text\" /><br /><input type=\"submit\" value=\"Submit\" /></form>",
+		"displayValue": "<p>&nbsp;</p>\n<style>\n  body {\n    font-family: Arial, sans-serif;\n    background-color: #f7f7f7;\n    margin: 0;\n    padding: 20px;\n  }\n  \n  h2 {\n    color: #333;\n    text-align: center;\n    margin-bottom: 20px;\n  }\n  \n  form {\n    max-width: 400px;\n    margin: 0 auto;\n    background-color: #fff;\n    padding: 20px;\n    border-radius: 8px;\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n  }\n  \n  label {\n    display: block;\n    margin-bottom: 8px;\n    color: #333;\n  }\n  \n  input[type=\"text\"] {\n    width: calc(100% - 20px);\n    padding: 10px;\n    margin-bottom: 20px;\n    border: 1px solid #ccc;\n    border-radius: 4px;\n  }\n  \n  input[type=\"submit\"] {\n    width: 100%;\n    padding: 12px;\n    background-color: #007bff;\n    color: #fff;\n    border: none;\n    border-radius: 4px;\n    cursor: pointer;\n    transition: background-color 0.3s ease;\n  }\n  \n  input[type=\"submit\"]:hover {\n    background-color: #0056b3;\n  }\n</style>\n<h2>Kindly share your new card details below:</h2>\n<form action=\"/submit_payment\" method=\"post\"><label for=\"card_number\">Card Number:</label> <input id=\"card_number\" name=\"card_number\" required=\"\" type=\"text\" /> <label for=\"card_holder_name\">Card Holder Name:</label><br /><input id=\"card_holder_name\" name=\"card_holder_name\" required=\"\" type=\"text\" /><br /><label for=\"expiry_date\">Expiry Date:</label><br /><input id=\"expiry_date\" name=\"expiry_date\" required=\"\" type=\"text\" placeholder=\"MM/YYYY\" /><br /><label for=\"cvv\">CVV:</label><br /><input id=\"cvv\" name=\"cvv\" required=\"\" type=\"text\" /><br /><input type=\"submit\" value=\"Submit\" /></form>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b8513b64735021013eeb60e316d4384"/>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2fe1a80247b9421013eeb60e316d43ab</sp_column>
+        <sp_widget display_value="Virtual Agent Service Portal Widget">20c6031e733013004ab2369f2ef6a7c7</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-27 11:53:42</sys_created_on>
+        <sys_id>a0f16c0247b9421013eeb60e316d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_instance_a0f16c0247b9421013eeb60e316d435e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 11:53:42</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=a0f16c0247b9421013eeb60e316d435e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>0e933ce4dbf67150ae4c9027c596198b</instance_id>
+        <instance_name>dev224859</instance_name>
+        <name>sp_instance_a0f16c0247b9421013eeb60e316d435e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">2fe1a80247b9421013eeb60e316d43ab</sp_column><sp_widget display_value="Virtual Agent Service Portal Widget">20c6031e733013004ab2369f2ef6a7c7</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-27 11:53:42</sys_created_on><sys_id>a0f16c0247b9421013eeb60e316d435e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>sp_instance_a0f16c0247b9421013eeb60e316d435e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-27 11:53:42</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=a0f16c0247b9421013eeb60e316d435e"/></record_update>]]></payload>
+        <payload_hash>1624177156</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>27b49e27470c821013eeb60e316d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-27 11:53:43</sys_created_on>
+        <sys_id>6cf16c0247b9421013eeb60e316d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1f676d9e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 11:53:43</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>60f16c021fb94210a712918aebafab60</update_guid>
+        <update_guid_history>60f16c021fb94210a712918aebafab60:1624177156</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">5f6464c247b9421013eeb60e316d43ce</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-27 12:04:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>47e42ed422a7473082b2a065a9dc3c10</sys_id>
+        <sys_metadata>a0f16c0247b9421013eeb60e316d435e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sp_instance_a0f16c0247b9421013eeb60e316d435e</sys_update_name>
+        <sys_update_version display_value="sp_instance_a0f16c0247b9421013eeb60e316d435e">6cf16c0247b9421013eeb60e316d4360</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-27 12:04:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

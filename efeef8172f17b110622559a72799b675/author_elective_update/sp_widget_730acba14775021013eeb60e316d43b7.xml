@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Building a portal from scratch </description>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>PetCards</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 11:12:06</sys_created_on>
+        <sys_id>730acba14775021013eeb60e316d43b7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>PetCards</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_widget_730acba14775021013eeb60e316d43b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 11:26:56</sys_updated_on>
+        <template><![CDATA[<div>
+My first custom widget
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>0e933ce4dbf67150ae4c9027c596198b</instance_id>
+        <instance_name>dev224859</instance_name>
+        <name>sp_widget_730acba14775021013eeb60e316d43b7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Building a portal from scratch &lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;PetCards&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-26 11:12:06&lt;/sys_created_on&gt;&lt;sys_id&gt;730acba14775021013eeb60e316d43b7&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;PetCards&lt;/sys_name&gt;&lt;sys_package display_value="ApniDukan" source="x_1151057_apniduka"&gt;efeef8172f17b110622559a72799b675&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ApniDukan"&gt;efeef8172f17b110622559a72799b675&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_730acba14775021013eeb60e316d43b7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-26 11:26:56&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+My first custom widget
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1993649512</payload_hash>
+        <record_name>PetCards</record_name>
+        <reverted_from/>
+        <source>27b49e27470c821013eeb60e316d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 11:26:56</sys_created_on>
+        <sys_id>22321ba94775021013eeb60e316d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1a288edb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 11:26:56</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>aa3213296b750210b290dd2f0d42c48b</update_guid>
+        <update_guid_history>aa3213296b750210b290dd2f0d42c48b:-1993649512,fa21d7695f7502100886509d9efde927:-1353104136,d4119be52a750210a4d6358586fe8645:-22360862,428f07e559750210cc8d652a4199e8a3:-1993649512,2a1f0fa13575021019fe776e0682cff5:1716290204,51de8f213a7502105d9d625f001bb08e:-2114637193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PetCards">0357dbed4775021013eeb60e316d433b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 11:49:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>0edc1f7fedcf4b8e9b67da3551fe7989</sys_id>
+        <sys_metadata>730acba14775021013eeb60e316d43b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PetCards</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sp_widget_730acba14775021013eeb60e316d43b7</sys_update_name>
+        <sys_update_version display_value="sp_widget_730acba14775021013eeb60e316d43b7">22321ba94775021013eeb60e316d43d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 11:49:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>3</order>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="2">d469f33e47b5021013eeb60e316d434c</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 11:30:25</sys_created_on>
+        <sys_id>2869f33e47b5021013eeb60e316d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_column_2869f33e47b5021013eeb60e316d4352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 11:30:25</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>0e933ce4dbf67150ae4c9027c596198b</instance_id>
+        <instance_name>dev224859</instance_name>
+        <name>sp_column_2869f33e47b5021013eeb60e316d4352</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>3</order><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="2">d469f33e47b5021013eeb60e316d434c</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-30 11:30:25</sys_created_on><sys_id>2869f33e47b5021013eeb60e316d4352</sys_id><sys_mod_count>0</sys_mod_count><sys_name>3</sys_name><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>sp_column_2869f33e47b5021013eeb60e316d4352</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-30 11:30:25</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1704865705</payload_hash>
+        <record_name>3</record_name>
+        <reverted_from/>
+        <source>27b49e27470c821013eeb60e316d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 11:30:25</sys_created_on>
+        <sys_id>6069f33e47b5021013eeb60e316d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2ec52cbd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 11:30:25</sys_updated_on>
+        <type>Column</type>
+        <update_guid>6469f33ee3b502101493b54137b00353</update_guid>
+        <update_guid_history>6469f33ee3b502101493b54137b00353:1704865705</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3">4f8c012747b1421013eeb60e316d439c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 06:50:45</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>3bbb003f3e2f4573af57f1fce37052b1</sys_id>
+        <sys_metadata>2869f33e47b5021013eeb60e316d4352</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sp_column_2869f33e47b5021013eeb60e316d4352</sys_update_name>
+        <sys_update_version display_value="sp_column_2869f33e47b5021013eeb60e316d4352">6069f33e47b5021013eeb60e316d4354</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 06:50:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

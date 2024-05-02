@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color>#000000</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>true</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>ApniDukan_Homepage - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="apnidukan_homepage">6886a1132f9bb110622559a72799b62d</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 07:28:51</sys_created_on>
+        <sys_id>2a862d132f9bb110622559a72799b62c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>ApniDukan_Homepage - Container 2</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_container_2a862d132f9bb110622559a72799b62c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 09:41:04</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>0e933ce4dbf67150ae4c9027c596198b</instance_id>
+        <instance_name>dev224859</instance_name>
+        <name>sp_container_2a862d132f9bb110622559a72799b62c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color>#000000</background_color><background_image/><background_style>default</background_style><bootstrap_alt>true</bootstrap_alt><class_name/><container_class_name/><name>ApniDukan_Homepage - Container 2</name><order>2</order><sp_page display_value="apnidukan_homepage">6886a1132f9bb110622559a72799b62d</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-29 07:28:51</sys_created_on><sys_id>2a862d132f9bb110622559a72799b62c</sys_id><sys_mod_count>7</sys_mod_count><sys_name>ApniDukan_Homepage - Container 2</sys_name><sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package><sys_policy/><sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope><sys_update_name>sp_container_2a862d132f9bb110622559a72799b62c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-02 09:41:04</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1408168279</payload_hash>
+        <record_name>ApniDukan_Homepage - Container 2</record_name>
+        <reverted_from/>
+        <source>27b49e27470c821013eeb60e316d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 09:41:04</sys_created_on>
+        <sys_id>8a83b1234775421013eeb60e316d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f38adc7c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 09:41:04</sys_updated_on>
+        <type>Container</type>
+        <update_guid>fd83b123be75421083b6947813be5ff8</update_guid>
+        <update_guid_history>fd83b123be75421083b6947813be5ff8:-1408168279,4502b92f8b354210b1ae4d9f0c213e38:-1868473796,d60d3abea1b1021042d9c504196df686:-50881382,cbcc36beadb102109d66fb275c702f01:1898082557,abde2afe36710210861f3569d8e99518:-50881382,f0deeafe997102108b8d3de9bc56d409:-1381100487,24deeafef071021095bfda43f5e1684c:303509400,e8ec2a7e8b7102100a15c2ff1a78251f:-1164913101,54ec2a7e3371021027839964d7f1581a:-722091263,729724996e00021005292e8b3f43e78a:-1054591491</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ApniDukan_Homepage - Container 2">65a43d234775421013eeb60e316d43c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 09:45:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>5a2851eacc4f461e848823b650227509</sys_id>
+        <sys_metadata>2a862d132f9bb110622559a72799b62c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ApniDukan_Homepage - Container 2</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sp_container_2a862d132f9bb110622559a72799b62c</sys_update_name>
+        <sys_update_version display_value="sp_container_2a862d132f9bb110622559a72799b62c">8a83b1234775421013eeb60e316d43f9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 09:45:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

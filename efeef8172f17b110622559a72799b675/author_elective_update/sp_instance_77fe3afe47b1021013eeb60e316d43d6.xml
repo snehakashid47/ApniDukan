@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d77d32fe47b1021013eeb60e316d439c</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 07:15:19</sys_created_on>
+        <sys_id>77fe3afe47b1021013eeb60e316d43d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Payment</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_instance_77fe3afe47b1021013eeb60e316d43d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 07:17:33</sys_updated_on>
+        <title>Payment</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&lt;html&gt;<br />&lt;head&gt;<br />&lt;meta charset=\"UTF-8\"&gt;<br />&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;<br />&lt;title&gt;Payment Details&lt;/title&gt;<br />&lt;/head&gt;<br />&lt;body&gt;</p>\r\n<p>&lt;h2&gt;Payment Details&lt;/h2&gt;</p>\r\n<p>&lt;form action=\"/submit_payment\" method=\"post\"&gt;<br />&nbsp; &lt;label for=\"card_number\"&gt;Card Number:&lt;/label&gt;&lt;br&gt;<br />&nbsp; &lt;input type=\"text\" id=\"card_number\" name=\"card_number\" required&gt;&lt;br&gt;<br />&nbsp;&nbsp;<br />&nbsp; &lt;label for=\"card_holder_name\"&gt;Card Holder Name:&lt;/label&gt;&lt;br&gt;<br />&nbsp; &lt;input type=\"text\" id=\"card_holder_name\" name=\"card_holder_name\" required&gt;&lt;br&gt;<br />&nbsp;&nbsp;<br />&nbsp; &lt;label for=\"expiry_date\"&gt;Expiry Date:&lt;/label&gt;&lt;br&gt;<br />&nbsp; &lt;input type=\"text\" id=\"expiry_date\" name=\"expiry_date\" placeholder=\"MM/YYYY\" required&gt;&lt;br&gt;<br />&nbsp;&nbsp;<br />&nbsp; &lt;label for=\"cvv\"&gt;CVV:&lt;/label&gt;&lt;br&gt;<br />&nbsp; &lt;input type=\"text\" id=\"cvv\" name=\"cvv\" required&gt;&lt;br&gt;<br />&nbsp;&nbsp;<br />&nbsp; &lt;input type=\"submit\" value=\"Submit\"&gt;<br />&lt;/form&gt;</p>\r\n<p>&lt;/body&gt;<br />&lt;/html&gt;</p>",
+		"displayValue": "<p>&lt;html&gt;<br />&lt;head&gt;<br />&lt;meta charset=\"UTF-8\"&gt;<br />&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;<br />&lt;title&gt;Payment Details&lt;/title&gt;<br />&lt;/head&gt;<br />&lt;body&gt;</p>\n<p>&lt;h2&gt;Payment Details&lt;/h2&gt;</p>\n<p>&lt;form action=\"/submit_payment\" method=\"post\"&gt;<br />&nbsp; &lt;label for=\"card_number\"&gt;Card Number:&lt;/label&gt;&lt;br&gt;<br />&nbsp; &lt;input type=\"text\" id=\"card_number\" name=\"card_number\" required&gt;&lt;br&gt;<br />&nbsp;&nbsp;<br />&nbsp; &lt;label for=\"card_holder_name\"&gt;Card Holder Name:&lt;/label&gt;&lt;br&gt;<br />&nbsp; &lt;input type=\"text\" id=\"card_holder_name\" name=\"card_holder_name\" required&gt;&lt;br&gt;<br />&nbsp;&nbsp;<br />&nbsp; &lt;label for=\"expiry_date\"&gt;Expiry Date:&lt;/label&gt;&lt;br&gt;<br />&nbsp; &lt;input type=\"text\" id=\"expiry_date\" name=\"expiry_date\" placeholder=\"MM/YYYY\" required&gt;&lt;br&gt;<br />&nbsp;&nbsp;<br />&nbsp; &lt;label for=\"cvv\"&gt;CVV:&lt;/label&gt;&lt;br&gt;<br />&nbsp; &lt;input type=\"text\" id=\"cvv\" name=\"cvv\" required&gt;&lt;br&gt;<br />&nbsp;&nbsp;<br />&nbsp; &lt;input type=\"submit\" value=\"Submit\"&gt;<br />&lt;/form&gt;</p>\n<p>&lt;/body&gt;<br />&lt;/html&gt;</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=77fe3afe47b1021013eeb60e316d43d6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>0e933ce4dbf67150ae4c9027c596198b</instance_id>
+        <instance_name>dev224859</instance_name>
+        <name>sp_instance_77fe3afe47b1021013eeb60e316d43d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;d77d32fe47b1021013eeb60e316d439c&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-30 07:15:19&lt;/sys_created_on&gt;&lt;sys_id&gt;77fe3afe47b1021013eeb60e316d43d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Payment&lt;/sys_name&gt;&lt;sys_package display_value="ApniDukan" source="x_1151057_apniduka"&gt;efeef8172f17b110622559a72799b675&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ApniDukan"&gt;efeef8172f17b110622559a72799b675&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_77fe3afe47b1021013eeb60e316d43d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-30 07:17:33&lt;/sys_updated_on&gt;&lt;title&gt;Payment&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;lt;html&amp;gt;&lt;br /&gt;&amp;lt;head&amp;gt;&lt;br /&gt;&amp;lt;meta charset=\"UTF-8\"&amp;gt;&lt;br /&gt;&amp;lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&amp;gt;&lt;br /&gt;&amp;lt;title&amp;gt;Payment Details&amp;lt;/title&amp;gt;&lt;br /&gt;&amp;lt;/head&amp;gt;&lt;br /&gt;&amp;lt;body&amp;gt;&lt;/p&gt;\r\n&lt;p&gt;&amp;lt;h2&amp;gt;Payment Details&amp;lt;/h2&amp;gt;&lt;/p&gt;\r\n&lt;p&gt;&amp;lt;form action=\"/submit_payment\" method=\"post\"&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;label for=\"card_number\"&amp;gt;Card Number:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"text\" id=\"card_number\" name=\"card_number\" required&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&amp;nbsp; &amp;lt;label for=\"card_holder_name\"&amp;gt;Card Holder Name:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"text\" id=\"card_holder_name\" name=\"card_holder_name\" required&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&amp;nbsp; &amp;lt;label for=\"expiry_date\"&amp;gt;Expiry Date:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"text\" id=\"expiry_date\" name=\"expiry_date\" placeholder=\"MM/YYYY\" required&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&amp;nbsp; &amp;lt;label for=\"cvv\"&amp;gt;CVV:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"text\" id=\"cvv\" name=\"cvv\" required&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"submit\" value=\"Submit\"&amp;gt;&lt;br /&gt;&amp;lt;/form&amp;gt;&lt;/p&gt;\r\n&lt;p&gt;&amp;lt;/body&amp;gt;&lt;br /&gt;&amp;lt;/html&amp;gt;&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&amp;lt;html&amp;gt;&lt;br /&gt;&amp;lt;head&amp;gt;&lt;br /&gt;&amp;lt;meta charset=\"UTF-8\"&amp;gt;&lt;br /&gt;&amp;lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&amp;gt;&lt;br /&gt;&amp;lt;title&amp;gt;Payment Details&amp;lt;/title&amp;gt;&lt;br /&gt;&amp;lt;/head&amp;gt;&lt;br /&gt;&amp;lt;body&amp;gt;&lt;/p&gt;\n&lt;p&gt;&amp;lt;h2&amp;gt;Payment Details&amp;lt;/h2&amp;gt;&lt;/p&gt;\n&lt;p&gt;&amp;lt;form action=\"/submit_payment\" method=\"post\"&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;label for=\"card_number\"&amp;gt;Card Number:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"text\" id=\"card_number\" name=\"card_number\" required&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&amp;nbsp; &amp;lt;label for=\"card_holder_name\"&amp;gt;Card Holder Name:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"text\" id=\"card_holder_name\" name=\"card_holder_name\" required&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&amp;nbsp; &amp;lt;label for=\"expiry_date\"&amp;gt;Expiry Date:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"text\" id=\"expiry_date\" name=\"expiry_date\" placeholder=\"MM/YYYY\" required&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&amp;nbsp; &amp;lt;label for=\"cvv\"&amp;gt;CVV:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"text\" id=\"cvv\" name=\"cvv\" required&amp;gt;&amp;lt;br&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&lt;br /&gt;&amp;nbsp; &amp;lt;input type=\"submit\" value=\"Submit\"&amp;gt;&lt;br /&gt;&amp;lt;/form&amp;gt;&lt;/p&gt;\n&lt;p&gt;&amp;lt;/body&amp;gt;&lt;br /&gt;&amp;lt;/html&amp;gt;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=77fe3afe47b1021013eeb60e316d43d6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-403099622</payload_hash>
+        <record_name>Payment</record_name>
+        <reverted_from/>
+        <source>27b49e27470c821013eeb60e316d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 07:17:34</sys_created_on>
+        <sys_id>ec8f327247f1021013eeb60e316d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2dddaf760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 07:17:34</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>248f32722cf102106e7e0b9038b525f0</update_guid>
+        <update_guid_history>248f32722cf102106e7e0b9038b525f0:-403099622,603f3afe9fb10210edee2c79542863f7:-367677147,fbfe3afe83b102108749ddec916c2fd7:754350859</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Payment">b025d3b64735021013eeb60e316d439a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 08:52:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>232324e546db4c4088b40e15eb334931</sys_id>
+        <sys_metadata>77fe3afe47b1021013eeb60e316d43d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Payment</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sp_instance_77fe3afe47b1021013eeb60e316d43d6</sys_update_name>
+        <sys_update_version display_value="sp_instance_77fe3afe47b1021013eeb60e316d43d6">ec8f327247f1021013eeb60e316d43f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 08:52:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

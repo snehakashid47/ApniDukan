@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>inbox</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a934f5234775421013eeb60e316d4396</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 06:49:37</sys_created_on>
+        <sys_id>1719ba7a47b1021013eeb60e316d4352</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Your Orders</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_instance_link_1719ba7a47b1021013eeb60e316d4352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 09:44:07</sys_updated_on>
+        <title>Your Orders</title>
+        <type>url</type>
+        <url>https://dev224859.service-now.com/now/nav/ui/classic/params/target/task_list.do%3Fsysparm_userpref_module%3De661dff4c611227b01af0af70d4b67f1%26sysparm_view%3Dmy_request%26sysparm_fixed_query%3Dsys_idINjavascript%3AgetMyRequestIDs()</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=1719ba7a47b1021013eeb60e316d4352"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_inbox_layout">
+    <awa_inbox_layout action="INSERT_OR_UPDATE">
+        <card_layout><![CDATA[<img src="awa_card_layout_guide.png" width="349" height="300" />]]></card_layout>
+        <condition/>
+        <field_1>number</field_1>
+        <field_2/>
+        <field_3/>
+        <field_4/>
+        <field_5/>
+        <is_default>true</is_default>
+        <name>Default New Incident Raised layout</name>
+        <order>1000000</order>
+        <service_channel display_value="New Incident Raised">6694552347f1421013eeb60e316d4317</service_channel>
+        <short_description>Default inbox layout for the New Incident Raised Service Channel</short_description>
+        <sys_class_name>awa_inbox_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 07:28:44</sys_created_on>
+        <sys_id>6b35d9ef47b1421013eeb60e316d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default New Incident Raised layout</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>awa_inbox_layout_6b35d9ef47b1421013eeb60e316d43cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 07:28:44</sys_updated_on>
+    </awa_inbox_layout>
+</record_update>

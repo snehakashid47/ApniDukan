@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>book</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">ee9f692f4735421013eeb60e316d4303</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 06:51:26</sys_created_on>
+        <sys_id>c5bc0de347b1421013eeb60e316d433c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Raise a Complaint</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_instance_link_c5bc0de347b1421013eeb60e316d433c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 09:24:01</sys_updated_on>
+        <title>Raise a Complaint</title>
+        <type>url</type>
+        <url>https://dev224859.service-now.com/apnidukan?id=sc_cat_item&amp;sys_id=3f1dd0320a0a0b99000a53f7604a2ef9</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=c5bc0de347b1421013eeb60e316d433c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>0e933ce4dbf67150ae4c9027c596198b</instance_id>
+        <instance_name>dev224859</instance_name>
+        <name>sp_instance_link_c5bc0de347b1421013eeb60e316d433c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;book&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;ee9f692f4735421013eeb60e316d4303&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-02 06:51:26&lt;/sys_created_on&gt;&lt;sys_id&gt;c5bc0de347b1421013eeb60e316d433c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Raise a Complaint&lt;/sys_name&gt;&lt;sys_package display_value="ApniDukan" source="x_1151057_apniduka"&gt;efeef8172f17b110622559a72799b675&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ApniDukan"&gt;efeef8172f17b110622559a72799b675&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_c5bc0de347b1421013eeb60e316d433c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-02 09:24:01&lt;/sys_updated_on&gt;&lt;title&gt;Raise a Complaint&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;https://dev224859.service-now.com/apnidukan?id=sc_cat_item&amp;amp;sys_id=3f1dd0320a0a0b99000a53f7604a2ef9&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c5bc0de347b1421013eeb60e316d433c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1803965746</payload_hash>
+        <record_name>Raise a Complaint</record_name>
+        <reverted_from/>
+        <source>27b49e27470c821013eeb60e316d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 09:24:02</sys_created_on>
+        <sys_id>a0af692f4735421013eeb60e316d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f389e302b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 09:24:02</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>a4af692f46354210e452bfdea79a4884</update_guid>
+        <update_guid_history>a4af692f46354210e452bfdea79a4884:-1803965746,0a1ecda788b14210926a1607755c7f12:622291045,a85d8967b4b14210086319e815e704ac:-327589790,d42dc9677ab1421077644d402e8c619c:2100834121,510d81274bb1421055df0bdb8bd9f001:-243112404,85bcc127d6b14210ffa032055446196e:260049655</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Raise a Complaint">c864f9634775421013eeb60e316d437a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 09:44:45</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>029a41dd3fd3428289362a5edc3f6044</sys_id>
+        <sys_metadata>c5bc0de347b1421013eeb60e316d433c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Raise a Complaint</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sp_instance_link_c5bc0de347b1421013eeb60e316d433c</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_c5bc0de347b1421013eeb60e316d433c">a0af692f4735421013eeb60e316d4385</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 09:44:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

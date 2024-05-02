@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>inbox</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">507662b64771021013eeb60e316d43a1</sp_column>
+        <sp_widget display_value="Announcements">94c300c7e777320075c2a117c2f6a9e7</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 05:19:40</sys_created_on>
+        <sys_id>e584e2f24771021013eeb60e316d4357</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Your Orders</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_instance_e584e2f24771021013eeb60e316d4357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 06:03:33</sys_updated_on>
+        <title>Your Orders</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Your Orders",
+		"displayValue": "Your Orders"
+	},
+	"glyph": {
+		"value": "inbox",
+		"displayValue": ""
+	},
+	"type": {
+		"value": ""
+	},
+	"paginate": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_records": {
+		"value": null,
+		"displayValue": ""
+	},
+	"view_all_page": {
+		"value": "dcf1f502d7a23100a9ad1e173e24d414",
+		"displayValue": "approval"
+	},
+	"use_display_style": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e584e2f24771021013eeb60e316d4357"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>0e933ce4dbf67150ae4c9027c596198b</instance_id>
+        <instance_name>dev224859</instance_name>
+        <name>sp_instance_e584e2f24771021013eeb60e316d4357</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;inbox&lt;/glyph&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;507662b64771021013eeb60e316d43a1&lt;/sp_column&gt;&lt;sp_widget display_value="Announcements"&gt;94c300c7e777320075c2a117c2f6a9e7&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-30 05:19:40&lt;/sys_created_on&gt;&lt;sys_id&gt;e584e2f24771021013eeb60e316d4357&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Your Orders&lt;/sys_name&gt;&lt;sys_package display_value="ApniDukan" source="x_1151057_apniduka"&gt;efeef8172f17b110622559a72799b675&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ApniDukan"&gt;efeef8172f17b110622559a72799b675&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_e584e2f24771021013eeb60e316d4357&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-30 06:03:33&lt;/sys_updated_on&gt;&lt;title&gt;Your Orders&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "Your Orders",
+		"displayValue": "Your Orders"
+	},
+	"glyph": {
+		"value": "inbox",
+		"displayValue": ""
+	},
+	"type": {
+		"value": ""
+	},
+	"paginate": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_records": {
+		"value": null,
+		"displayValue": ""
+	},
+	"view_all_page": {
+		"value": "dcf1f502d7a23100a9ad1e173e24d414",
+		"displayValue": "approval"
+	},
+	"use_display_style": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e584e2f24771021013eeb60e316d4357"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1662842492</payload_hash>
+        <record_name>Your Orders</record_name>
+        <reverted_from/>
+        <source>27b49e27470c821013eeb60e316d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 06:03:33</sys_created_on>
+        <sys_id>ec9ea6fe4771021013eeb60e316d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2d99ece60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 06:03:33</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>249ea6fe4571021030599314e075445f</update_guid>
+        <update_guid_history>249ea6fe4571021030599314e075445f:-1662842492,c58e66fe8a710210c4350ae2908a134d:707452088,495eae7e277102104fd070ab3095d0b9:135681058,2b76e6b65e710210caa55fba2462b42c:-1325369526,7bf5ae763e710210b990f546308f39bf:-1113291971,a555ee7273710210cbe307a45f1dcba5:-986167747,6df42676647102102cff1e8585d5b912:-1703049560,e984ee36c2710210f9aae1fee1f0aa6d:1973541002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Your Orders">84d97eba47b1021013eeb60e316d437b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 06:52:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>44c96f7665b540059819a5ca5dfdd6f9</sys_id>
+        <sys_metadata>e584e2f24771021013eeb60e316d4357</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Your Orders</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sp_instance_e584e2f24771021013eeb60e316d4357</sys_update_name>
+        <sys_update_version display_value="sp_instance_e584e2f24771021013eeb60e316d4357">ec9ea6fe4771021013eeb60e316d435f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 06:52:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
