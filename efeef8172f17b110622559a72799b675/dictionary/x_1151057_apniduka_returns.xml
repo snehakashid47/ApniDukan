@@ -8,7 +8,7 @@
             </choice>
         </element>
         <element label="Delivery_Date" max_length="32" name="delivery_date" type="glide_date"/>
-        <element label="Order_Id" max_length="32" name="order_id" reference="x_1151057_apniduka_orders" type="reference"/>
+        <element label="Order_Id" max_length="32" name="order_id" type="string"/>
         <element label="Pincode" max_length="32" name="pincode" reference="x_1151057_apniduka_postaldata" type="reference"/>
         <element choice="3" label="Reason" mandatory="true" max_length="200" name="reason" type="string">
             <choice>
