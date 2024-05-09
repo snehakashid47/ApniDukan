@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>demo due date error</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+var curdate=new Date();
+var due=g_form.getValue('due_date');
+var duedate=new Date(duedate);
+if(duedate<=curdate)
+{
+	g_form.addErrorMessage('Duedate cannot be less than today');
+	return false;
+}   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 09:15:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ecd726a47a0021013eeb60e316d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo due date error</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sys_script_client_3ecd726a47a0021013eeb60e316d43d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 09:15:10</sys_updated_on>
+        <table>incident</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ApniDukan">efeef8172f17b110622559a72799b675</application>
+        <file_path/>
+        <instance_id>0e933ce4dbf67150ae4c9027c596198b</instance_id>
+        <instance_name>dev224859</instance_name>
+        <name>sys_script_client_3ecd726a47a0021013eeb60e316d43d9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;demo due date error&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+var curdate=new Date();
+var due=g_form.getValue('due_date');
+var duedate=new Date(duedate);
+if(duedate&lt;=curdate)
+{
+	g_form.addErrorMessage('Duedate cannot be less than today');
+	return false;
+}   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-27 09:15:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3ecd726a47a0021013eeb60e316d43d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;demo due date error&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ApniDukan" source="x_1151057_apniduka"&gt;efeef8172f17b110622559a72799b675&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ApniDukan"&gt;efeef8172f17b110622559a72799b675&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3ecd726a47a0021013eeb60e316d43d9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-27 09:15:10&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>411748679</payload_hash>
+        <record_name>demo due date error</record_name>
+        <reverted_from/>
+        <source>27b49e27470c821013eeb60e316d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 09:15:10</sys_created_on>
+        <sys_id>4d4e366a47a0021013eeb60e316d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18de9d8b90d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 09:15:10</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>414e366acda00210ec22418b9b746524</update_guid>
+        <update_guid_history>414e366acda00210ec22418b9b746524:411748679</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 09:20:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>40954ed7e0d8417e8a3ff831a1366951</sys_id>
+        <sys_metadata>3ecd726a47a0021013eeb60e316d43d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo due date error</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_parent display_value="Incident">8ef778397db1311076daf29f52070d0e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_scope_delete display_value="">1da7b82edbfb4e99b90a43cd944ea761</sys_scope_delete>
+        <sys_update_name>sys_script_client_3ecd726a47a0021013eeb60e316d43d9</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3ecd726a47a0021013eeb60e316d43d9">4d4e366a47a0021013eeb60e316d4324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 09:20:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

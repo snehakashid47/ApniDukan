@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 300px;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: 0.5em;
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>pletra_engine</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Pletra Engine</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 06:05:43</sys_created_on>
+        <sys_id>85890ebf4740021013eeb60e316d4351</sys_id>
+        <sys_mod_count>56</sys_mod_count>
+        <sys_name>Pletra Engine</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>sp_widget_85890ebf4740021013eeb60e316d4351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 08:52:11</sys_updated_on>
+        <template><![CDATA[<form>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Assignment Engine Type</a></li>
+    <li class="breadcrumb-item"><a href="#">Skills</a></li>
+    <li class="breadcrumb-item"><a href="#">Criteria</a></li>
+    <li class="breadcrumb-item" aria-current="page">Agents with skills and criteria</li>
+  </ol>
+</nav>
+   <div class="form-group">
+      <label for="exampleInputEmail1" class="form-label">Choose Assignment Engine Type</label> 
+   </div>
+  <div class="form-group">
+      <select class="form-select" aria-label="Default select example">
+      <option selected>--None--</option>
+      <option value="1">Round Robin</option>
+      <option value="2">LIFO</option>
+      <option value="3">FIFO</option>
+     </select>
+  </div>
+  <div class="form-group">
+    <p>
+     <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Skills</a>
+     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Criteria</button>
+     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">View All</button>
+    </p>
+  <div class="row">
+    <div class="col">
+       <div class="collapse multi-collapse" id="multiCollapseExample1">
+         <div class="card card-body">
+           <div class="form-group">
+             <label for="exampleInputEmail1">Skill ID</label>
+             <input class="form-control" type="text" placeholder="SKI1001" readonly>   </div>
+              <div class="form-group">
+               <label for="exampleInputEmail1">Skill Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a skill name">
+              </div>
+               <div class="form-group">
+              	<input class="btn btn-primary" type="submit" value="Save">
+               </div>
+              </div>
+             </div>
+           </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        <div class="form-group">
+    <label for="exampleInputEmail1">Assignment Criteria ID</label>
+<input class="form-control" type="text" placeholder="ASR0001202" readonly>   </div>
+   <div class="form-group">
+    <label for="exampleInputEmail1">Assignment Criteria Name
+</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter a criteria name">
+   </div>
+        <div class="form-group">
+	<input class="btn btn-primary" type="submit" value="Save"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</form>]]></template>
+    </sp_widget>
+</record_update>

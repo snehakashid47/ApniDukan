@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref/>
+        <question display_value="Transfer reason">04359667470c821013eeb60e316d4375</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-05 12:18:14</sys_created_on>
+        <sys_id>08359667470c821013eeb60e316d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transfer without Resolution</sys_name>
+        <sys_package display_value="ApniDukan" source="x_1151057_apniduka">efeef8172f17b110622559a72799b675</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ApniDukan">efeef8172f17b110622559a72799b675</sys_scope>
+        <sys_update_name>question_choice_08359667470c821013eeb60e316d437f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-05 12:18:14</sys_updated_on>
+        <text>Transfer without Resolution</text>
+        <value>2</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=08359667470c821013eeb60e316d437f"/>
+</record_update>
